@@ -80,7 +80,7 @@
     "vega-transforms": "^1.1",
     "vega-util": "^1.6",
     "vega-view": "^2.1",
-    "vega-view-transforms": "^1.1",
+    "vega-view-transforms": "git+https://git@github.com/blzzz/vega-view-transforms.git#feature-autosize-fitx",
     "vega-voronoi": "2",
     "vega-wordcloud": "^2.1",
     "yargs": "4"
