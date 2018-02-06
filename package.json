@@ -54,6 +54,7 @@
   "scripts": {
     "rollup": "bin/rollup && bin/schema > build/vega-schema.json",
     "prebuild": "rm -rf build && mkdir build",
+    "prepare": "npm run prebuild && npm run build",
     "build": "npm run rollup && bin/rollup -e",
     "postbuild": "uglifyjs build/vega.js -c -m -o build/vega.min.js && uglifyjs build/vega-core.js -c -m -o build/vega-core.min.js",
     "pretest": "npm run prebuild && npm run rollup",
